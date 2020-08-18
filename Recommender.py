@@ -3,13 +3,13 @@ from csv import reader
 def explore_data(dataset, start, end, rows_and_columns=False):
     """Explore the elements of a list.
     
-    Print the elements of a list starting from the index 'start'(included) upto the index 'end'         (excluded).
+    Print the elements of a list starting from the index 'start'(included) upto the index 'end'(excluded).
     
     Keyword arguments:
     dataset -- list of which we want to see the elements
-    start -- index of the first element we want to see, this is included
-    end -- index of the stopping element, this is excluded 
-    rows_and_columns -- this parameter is optional while calling the function. It takes binary          values, either True or False. If true, print the dimension of the list, else dont.
+    start -- index of the first element we want to see, this is included.
+    end -- index of the stopping element, this is excluded. 
+    rows_and_columns -- this parameter is optional while calling the function. It takes binary values, either True or False. If true, print the dimension of the list, else dont.
     """
     
     
@@ -57,7 +57,7 @@ def duplicate_and_unique_movies(dataset, index_):
 def movies_lang(dataset, index_, lang_):
     """Extract the movies of a particular language.
     
-    Of all the movies available in all languages, this function extracts all the movies in a            particular laguage.
+    Of all the movies available in all languages, this function extracts all the movies in a particular laguage.
     Once you ahve extracted the movies, call the explore_data() to print first few rows.
     
     Keyword arguments:
